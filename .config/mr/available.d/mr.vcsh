@@ -1,2 +1,6 @@
 [$HOME/.config/vcsh/repo.d/mr.git]
-checkout = vcsh clone git@git.ak-online.be:mr.git mr
+checkout = vcsh clone ssh://git@git.ak-online.be:mr.git mr
+update   = vcsh run mr git pull
+push     = vcsh run mr git push
+status   = vcsh run mr git status
+gc       = vcsh run mr git gc
