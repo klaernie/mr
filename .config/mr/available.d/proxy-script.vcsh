@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/proxy-script.git]
-checkout = vcsh clone ssh://git@git.ak-online.be:proxy-script.git proxy-script
+checkout = vcsh clone git@git.ak-online.be:proxy-script.git proxy-script
 update   = vcsh run proxy-script git pull
 push     = vcsh run proxy-script git push
 status   = vcsh run proxy-script git status

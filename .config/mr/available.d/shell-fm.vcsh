@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/shell-fm.git]
-checkout = vcsh clone ssh://git@git.ak-online.be:shell-fm.git shell-fm
+checkout = vcsh clone git@git.ak-online.be:shell-fm.git shell-fm
 update   = vcsh run shell-fm git pull
 push     = vcsh run shell-fm git push
 status   = vcsh run shell-fm git status

@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/bashrc.git]
-checkout = vcsh clone ssh://git@git.ak-online.be:bashrc.git bashrc
+checkout = vcsh clone git@git.ak-online.be:bashrc.git bashrc
 update   = vcsh run bashrc git pull
 push     = vcsh run bashrc git push
 status   = vcsh run bashrc git status

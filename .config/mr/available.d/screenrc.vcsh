@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/screenrc.git]
-checkout = vcsh clone ssh://git@git.ak-online.be:screenrc.git screenrc
+checkout = vcsh clone git@git.ak-online.be:screenrc.git screenrc
 update   = vcsh run screenrc git pull
 push     = vcsh run screenrc git push
 status   = vcsh run screenrc git status
