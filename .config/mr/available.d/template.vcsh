@@ -4,4 +4,3 @@ update   = vcsh run template git pull
 push     = vcsh run template git push
 status   = vcsh run template git status
 gc       = vcsh run template git gc
-

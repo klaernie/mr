@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/xsession.git]
+checkout = vcsh clone ssh://git@git.ak-online.be:xsession.git xsession
+update   = vcsh run xsession git pull
+push     = vcsh run xsession git push
+status   = vcsh run xsession git status
+gc       = vcsh run xsession git gc

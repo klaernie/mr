@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/awesome.git]
+checkout = vcsh clone ssh://git@git.ak-online.be:awesome.git awesome
+update   = vcsh run awesome git pull
+push     = vcsh run awesome git push
+status   = vcsh run awesome git status
+gc       = vcsh run awesome git gc
