@@ -3,4 +3,9 @@ git_gc = git gc "$@"
 jobs = 5
 include = cat /usr/share/mr/vcsh
 
+lib = 
+	is_kandre(){
+		test "$(whoami)" = "kandre"
+	}
 include = cat ~/.config/mr/config.d/*
+
