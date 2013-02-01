@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/mutt.git]
+checkout = vcsh clone git@gitlab.ak-online.be:kandre/mutt.git mutt
+update   = vcsh run template git pull
+push     = vcsh run template git push
+status   = vcsh run template git status
+gc       = vcsh run template git gc
