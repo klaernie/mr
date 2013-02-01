@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/misc-bin.git]
-checkout = vcsh clone git@git.ak-online.be:misc-bin.git misc-bin
+checkout = vcsh clone git@gitlab.ak-online.be:kandre/misc-bin.git misc-bin
 update   = vcsh run misc-bin git pull
 push     = vcsh run misc-bin git push
 status   = vcsh run misc-bin git status
