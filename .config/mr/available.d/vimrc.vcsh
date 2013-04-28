@@ -5,6 +5,3 @@ checkout = vcsh clone git@gitlab.ak-online.be:kandre/vimrc.git vimrc
 update   = vcsh run vimrc git pull
 	   vcsh run vimrc sh -c "unset GIT_WORK_TREE ; git submodule init"
 	   vcsh run vimrc sh -c "unset GIT_WORK_TREE ; git submodule init"
-push     = vcsh run vimrc git push
-status   = vcsh run vimrc git status
-gc       = vcsh run vimrc git gc

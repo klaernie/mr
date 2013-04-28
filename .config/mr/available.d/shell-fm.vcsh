@@ -1,7 +1,3 @@
 [$HOME/.config/vcsh/repo.d/shell-fm.git]
 checkout = vcsh clone git@gitlab.ak-online.be:kandre/shell-fm.git shell-fm
-update   = vcsh run shell-fm git pull
-push     = vcsh run shell-fm git push
 skip	 = ! is_kandre
-status   = vcsh run shell-fm git status
-gc       = vcsh run shell-fm git gc

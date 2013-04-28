@@ -1,6 +1,2 @@
 [$HOME/.config/vcsh/repo.d/template.git]
 checkout = vcsh clone git@gitlab.ak-online.be:kandre/template.git template
-update   = vcsh run template git pull
-push     = vcsh run template git push
-status   = vcsh run template git status
-gc       = vcsh run template git gc

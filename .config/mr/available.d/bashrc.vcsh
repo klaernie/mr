@@ -1,6 +1,2 @@
 [$HOME/.config/vcsh/repo.d/bashrc.git]
 checkout = vcsh clone git@gitlab.ak-online.be:kandre/bashrc.git bashrc
-update   = vcsh run bashrc git pull
-push     = vcsh run bashrc git push
-status   = vcsh run bashrc git status
-gc       = vcsh run bashrc git gc

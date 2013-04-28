@@ -1,11 +1,11 @@
 [DEFAULT]
 git_gc = git gc "$@"
+vcsh_gc = vcsh run "$@" git gc
 jobs = 5
-include = cat /usr/share/mr/vcsh
 
 lib = 
 	is_kandre(){
 		test "$(whoami)" = "kandre"
 	}
-include = cat ~/.config/mr/config.d/*
 
+include = cat ~/.config/mr/config.d/*
