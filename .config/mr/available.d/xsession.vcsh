@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/xsession.git]
-checkout = vcsh clone git@gitlab.ak-online.be:kandre/xsession.git xsession
+checkout = vcsh clone git@git.ak-online.be:kandre/xsession.git xsession

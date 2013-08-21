@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/screenrc.git]
-checkout = vcsh clone git@gitlab.ak-online.be:kandre/screenrc.git screenrc
+checkout = vcsh clone git@git.ak-online.be:kandre/screenrc.git screenrc
