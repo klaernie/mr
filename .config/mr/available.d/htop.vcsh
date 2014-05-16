@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/htop.git]
-checkout = vcsh clone git@git.ak-online.be:kandre/htop.git htop
+checkout = vcsh clone git@gitlab.ak-online.be:kandre/htop.git htop

@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/template.git]
-checkout = vcsh clone git@git.ak-online.be:kandre/template.git template
+checkout = vcsh clone git@gitlab.ak-online.be:kandre/template.git template

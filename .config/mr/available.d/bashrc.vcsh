@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/bashrc.git]
-checkout = vcsh clone git@git.ak-online.be:kandre/bashrc.git bashrc
+checkout = vcsh clone git@gitlab.ak-online.be:kandre/bashrc.git bashrc

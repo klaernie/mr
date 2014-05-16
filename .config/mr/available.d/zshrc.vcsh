@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/zshrc.git]
-checkout = vcsh clone git@git.ak-online.be:kandre/zshrc.git zshrc
+checkout = vcsh clone git@gitlab.ak-online.be:kandre/zshrc.git zshrc
