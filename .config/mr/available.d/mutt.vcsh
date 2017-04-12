@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/mutt.git]
-checkout = vcsh clone git@gitlab.ak-online.be:kandre/mutt.git mutt
+checkout = vcsh clone git@github.com:klaernie/mutt.git mutt

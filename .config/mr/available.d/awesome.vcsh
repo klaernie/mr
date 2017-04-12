@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/awesome.git]
-checkout = vcsh clone git@gitlab.ak-online.be:kandre/awesome.git awesome
+checkout = vcsh clone git@github.com:klaernie/awesome.git awesome
