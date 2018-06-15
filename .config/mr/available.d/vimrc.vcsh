@@ -1,5 +1,3 @@
 [$HOME/.config/vcsh/repo.d/vimrc.git]
 checkout = vcsh clone git@github.com:klaernie/vimrc.git vimrc
-	   vcsh run vimrc sh -c "cd $HOME; unset GIT_WORK_TREE ; git submodule update --init"
 update   = vcsh run vimrc git pull
-	   vcsh run vimrc sh -c "cd $HOME; unset GIT_WORK_TREE ; git submodule update --init"
